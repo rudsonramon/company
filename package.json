@@ -1,0 +1,38 @@
+{
+  "name": "company",
+  "version": "1.0.0",
+  "description": "Admin Site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rudsonramon/company.git"
+  },
+  "author": "Rudson R.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rudsonramon/company/issues"
+  },
+  "homepage": "https://github.com/rudsonramon/company#readme",
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.3",
+    "eslint-plugin-react-hooks": "^4.0.8",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "admin-bro": "^2.8.0",
+    "admin-bro-expressjs": "^2.1.1",
+    "admin-bro-mongoose": "^0.5.2",
+    "express": "^4.17.1",
+    "express-formidable": "^1.2.0",
+    "mongoose": "^5.9.25",
+    "mongose": "0.0.2-security"
+  }
+}
